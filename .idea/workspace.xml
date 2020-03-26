@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cd8d631-a592-489e-a486-0379822101ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1ZX9CYj5Sj7BBzHczbUn7CdBGFI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.3156823" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cd8d631-a592-489e-a486-0379822101ad" name="Default Changelist" comment="" />
+      <created>1584974444729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584974444729</updated>
+      <workItem from="1584974446799" duration="6942000" />
+      <workItem from="1585042001465" duration="3099000" />
+      <workItem from="1585048643308" duration="8511000" />
+      <workItem from="1585139676609" duration="7094000" />
+      <workItem from="1585173790324" duration="4351000" />
+      <workItem from="1585228101528" duration="17591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="84" y="308" key="#Notifications" timestamp="1584978067536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="84" y="308" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584978067536" />
+    <state x="537" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584980924077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="537" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584980924077" />
+    <state x="512" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584976397229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="512" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584976397229" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585264480583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585264480583" />
+    <state x="680" y="369" width="764" height="236" key="Github.ShareDialog" timestamp="1585264655408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="680" y="369" width="764" height="236" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585264655408" />
+    <state width="947" height="245" key="GridCell.Tab.0.bottom" timestamp="1585264695588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="947" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585264695588" />
+    <state width="947" height="245" key="GridCell.Tab.0.center" timestamp="1585264695588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="947" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585264695588" />
+    <state width="947" height="245" key="GridCell.Tab.0.left" timestamp="1585264695588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="947" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585264695588" />
+    <state width="947" height="245" key="GridCell.Tab.0.right" timestamp="1585264695588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="947" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585264695588" />
+    <state x="442" y="176" key="SettingsEditor" timestamp="1585264499960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="442" y="176" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585264499960" />
+    <state x="569" y="168" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584978458942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="569" y="168" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584978458942" />
+    <state x="869" y="260" key="run.anything.popup" timestamp="1585047077653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="869" y="260" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585047077653" />
+  </component>
+</project>
