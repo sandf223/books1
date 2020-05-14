@@ -17,15 +17,6 @@ table td:nth-child(n + 4) {
     font-weight: 500;
 }
 
-
-/*
-.title:hover,
-.title:active {
-    color: red;
-    text-decoration: none;
-}
-*/
-
 table td:nth-child(2) {
     min-width: 200px;
 }

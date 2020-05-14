@@ -1,5 +1,5 @@
 import React from "react";
-import TabsFilters from "../SeachPanel/App-Tabs-Filters";
+
 
 const AppHeader = () => {
     return (

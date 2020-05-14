@@ -6,3 +6,21 @@
 .header {
     padding: 10px 0 20px 0;
 }
+
+.filter {
+    width: 150px;
+}
+
+.filter>div {
+    border-radius: 0;
+    border-color: #333;
+}
+
+.filter>div:first-child {
+    box-shadow: none;
+}
+
+.search-panel {
+    display: flex;
+    margin-bottom: 20px;
+}

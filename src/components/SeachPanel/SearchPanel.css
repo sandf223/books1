@@ -1,6 +1,24 @@
 .input-search {
     width: 100%;
-    border: none;
-    border-bottom: 1px solid;
+    /* border: none; */
+    border: 1px solid;
+    /* border-right: none; */
     padding-left: 30px;
+    margin-right: -1px;
+}
+
+.input-search:focus,
+.input-search:hover,
+.input-search:active,
+.input-search {
+    outline: none;
+}
+
+.input-search:focus {
+    /* box-shadow: #2684ff 0px 0px 0px 1px; */
+    border-color: #2684ff;
+}
+
+.input-search:hover {
+    border-color: hsl(0, 0%, 70%);
 }
