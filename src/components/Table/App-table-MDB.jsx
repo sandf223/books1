@@ -53,8 +53,13 @@ class DatatablePage extends React.Component {
     const hash = crypto.createHash('md5').update(ts + keys.PRIVATE_KEY + keys.PUBLIC_KEY).digest('hex');
     const url = new URL(MARVEL_URL + topic);
     const searchParams = new URLSearchParams();
-    if (titleStartsWith !== "") {
-      searchParams.append("titleStartsWith", titleStartsWith);
+      // for events nameStartsWith
+    if ((titleStartsWith !== "") && (titleStartsWith !== null)) {
+      if(topic !== 'events') {
+        searchParams.append("titleStartsWith", titleStartsWith);
+      } else {
+        searchParams.append("nameStartsWith", titleStartsWith);
+      }
     }
     searchParams.append("ts", ts);
     searchParams.append("apikey", PUBLIC_KEY);
@@ -63,6 +68,7 @@ class DatatablePage extends React.Component {
     searchParams.append("offset", offset);
 
     url.search = searchParams.toString();
+    console.log("my url",url);
     return fetch(url)
       .then(async res => {
         //const data = JSON.parse(res);
