@@ -12,17 +12,12 @@ import columns from './App-table-MDB-columns'
 import { colors } from 'react-select/src/theme';
 
 const MARVEL_URL = 'https://gateway.marvel.com/v1/public/';
-//const MARVEL_URL = 'https://localhost/';// for test
 
 const PUBLIC_KEY = '5155592d04ef469bf409b8f146919b82';
 const fetch = require('node-fetch');
 const crypto = require('crypto');
 const ts = new Date().getTime();
 const hash = crypto.createHash('md5').update(ts + keys.PRIVATE_KEY + keys.PUBLIC_KEY).digest('hex');
-
-
-// base query       "https://gateway.marvel.com/v1/public/comics?apikey=..."
-// advanced search  "https://gateway.marvel.com:443/v1/public/comics?titleStartsWith=ant&apikey..."
 
 class DatatablePage extends React.Component {
   constructor(props) {
@@ -31,7 +26,7 @@ class DatatablePage extends React.Component {
       rows: [],
       topic: "comics",
       titleStartsWith: "",
-      pagination: { limit: 50, offset: 0, total: 0 }
+      pagination: { limit: 100, offset: 0, total: 0 }
     }
   }
 
@@ -48,12 +43,11 @@ class DatatablePage extends React.Component {
   marvelQuerySearch() {
     const { topic, pagination , titleStartsWith} = this.state;
     const { offset, limit } = pagination;
-    // https://developer.mozilla.org/en-US/docs/Web/API/URL
     const ts = new Date().getTime();
     const hash = crypto.createHash('md5').update(ts + keys.PRIVATE_KEY + keys.PUBLIC_KEY).digest('hex');
     const url = new URL(MARVEL_URL + topic);
     const searchParams = new URLSearchParams();
-      // for events nameStartsWith
+
     if ((titleStartsWith !== "") && (titleStartsWith !== null)) {
       if(topic !== 'events') {
         searchParams.append("titleStartsWith", titleStartsWith);
@@ -61,6 +55,7 @@ class DatatablePage extends React.Component {
         searchParams.append("nameStartsWith", titleStartsWith);
       }
     }
+
     searchParams.append("ts", ts);
     searchParams.append("apikey", PUBLIC_KEY);
     searchParams.append("hash", hash);
@@ -71,10 +66,10 @@ class DatatablePage extends React.Component {
     console.log("my url",url);
     return fetch(url)
       .then(async res => {
-        //const data = JSON.parse(res);
-        //console.log("data = ", await res.json());
+
         const json = await res.json();
         const { results } = json.data;
+
         this.setState({
           rows: results.map(el => {
             return {
@@ -99,7 +94,6 @@ class DatatablePage extends React.Component {
   }
 
   onChange(value) {
-    //console.log('titleStartsWith= ', value);
     this.setState({ titleStartsWith: value });
   }
 
